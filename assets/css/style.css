@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    min-height: 100vh;
+}
+
+/* Partie Accueil */
+#homeBlock{
+    background-image: url("../img/homeF.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#homeBlock h1{
+    font-size: 70px;
+}
+
+#homeBlock h1 strong{
+    font-size: 30px;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 70px; 
+}
+
+#meBlock{
+    background-color: azure;
+}
